@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+body {
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    width: Fill 1,344px;
+    height: 80px;
+    justify-content: space-between;
+    padding: 16px 48px  16px 48px ;
+    background-color: #F9F5FA;
+}
+.navbar a{
+    text-decoration: none;
+}
+.left {
+    display: flex;
+    width: 228px;
+    height: Fixed 48px;
+    gap: 12px;
+}
+.right {
+    display: flex;
+    width: 576px;
+    height: 32px;
+    gap: 32px;  
+}
+.navbar1 {
+    width: 228px;
+    height: 30px;
+    font-family: "Dela Gothic One", serif;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 42px;
+    letter-spacing: -4%;
+    color: #421934;
+}
+.navbar2 {
+    width: 97px;
+    height: 32px;
+    font-family: "Dela Gothic One", serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1%;
+    color: #421934;
+}
+.navbar3 {
+    width: 101px;
+    height: 32px;
+    font-family: "Dela Gothic One", serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1%;
+    color: #421934;
+}
+.navbar4 {
+    width: 147px;
+    height: 32px;
+    font-family: "Dela Gothic One", serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1%;
+    color: #421934;
+}
+.navbar5 {
+    width: 135px;
+    height: 32px;
+    font-family: "Dela Gothic One", serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1%;
+    color: #421934;
+}
