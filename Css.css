@@ -1,15 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Sen:wght@400..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     margin: 0;
+    overflow-x: hidden;
+}
+/* First page starts */
+.First-page {
+    width: 100vw;
+    height: 77.14vw;
+    padding: 0vw 0vw 3.57vw 0vw;
+    border: 0vw 0vw 0.07vw 0vw;
     background-color: #F9F5FA;
 }
 .navbar {
     display: flex;
-    width: Fill 1,344px;
-    height: 80px;
+    width: 100vw;
+    height: 5.97vw;
     justify-content: space-between;
-    padding: 0px 48px 0px 48px ;
-    border: 1px solid #221B2029;
+    padding: 0vw 3.57vw 0vw 3.57vw;
+    border: 0.07vw solid #221B2029;
     align-items: center;
 }
 .navbar a{
@@ -17,84 +31,163 @@ body {
 }
 .left {
     display: flex;
-    width: 228px;
-    height: Fixed 48px;
-    gap: 12px;
+    width: 17vw;
+    height: 3.57vw;
+    gap: 0.89vw;
     margin-bottom: 1.5vw;
 }
 .right {
     display: flex;
-    width: 576px;
-    height: 32px;
-    gap: 32px;
+    width: 43vw;
+    height: 2.39vw;
+    gap: 2.39vw;
 }
 .navbar1 {
-    width: 228px;
-    height: 30px;
-    font-family: "Dela Gothic One", serif;
+    width: 17vw;
+    height: 2.24vw;
+    font-family: "Dela Gothic One";
     font-weight: 400;
-    font-size: 42px;
-    line-height: 42px;
+    font-size: 3.14vw;
+    line-height: 3.14vw;
     letter-spacing: -4%;
     color: #421934; 
 }
 .navbar2 {
-    width: 97px;
-    height: 32px;
-    font-family: "Dela Gothic One", serif;
+    width: 7.25vw;
+    height: 2.39vw;
+    font-family: "Dela Gothic One";
     font-weight: 400;
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 2.09vw;
+    line-height: 2.39vw;
     letter-spacing: -1%;
     color: #421934;
 }
 .navbar3 {
-    width: 101px;
-    height: 32px;
-    font-family: "Dela Gothic One", serif;
+    width: 7.54vw;
+    height: 2.39vw;
+    font-family: "Dela Gothic One";
     font-weight: 400;
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 2.09vw;
+    line-height: 2.39vw;
     letter-spacing: -1%;
     color: #421934;
 }
 .navbar4 {
-    width: 147px;
-    height: 32px;
-    font-family: "Dela Gothic One", serif;
+    width: 10.97vw;
+    height: 2.39vw;
+    font-family: "Dela Gothic One";
     font-weight: 400;
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 2.09vw;
+    line-height: 2.39vw;
     letter-spacing: -1%;
     color: #421934;
 }
 .navbar5 {
-    width: 135px;
-    height: 32px;
-    font-family: "Dela Gothic One", serif;
-    font-size: 28px;
+    width: 10.07vw;
+    height: 2.39vw;
+    font-family: "Dela Gothic One";
+    font-size: 2.09vw;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 2.39vw;
     letter-spacing: -1%;
     color: #421934;
 }
-.content1 {
+.First-page-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #421934;
 }
 h1 {
-    width: 1344px;
-    height: 240px;
-    font-family: "Dela Gothic One", serif;
+    width: 100vw;
+    height: 17.91vw;
+    font-family: "Dela Gothic One";
     font-weight: 400;
-    font-size: 120px;
-    line-height: 120px;
+    font-size: 8.96vw;
+    line-height: 8.96vw;
     letter-spacing: -2%;
     text-align: center;
     color: #421934;
 }
-.content1 img {
+.First-page-content img {
     width: 100%;
 }
+/* First page ends */
+
+/* Second page starts */
+.column {
+    padding-top: 2.22vw;
+    columns: 3;
+    column-gap: 3vw;
+    background-color: #F9F5FA; 
+}
+.Second-page-content {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 2.22vw;
+}
+.Second-page-content img{
+    width: 28.88vw;
+}
+.Second-page-content h3{
+    font-family: "Sen";
+    font-size: 1.49vw;
+    font-weight: 400;
+    line-height: 1.79vw;    
+    color: #421934;
+}
+.Second-page-content p {
+    font-family: "Sen";
+    font-size: 1.27vw;
+    font-weight: 400;
+    line-height: 1.79vw;
+    color: #4219349E;
+}
+@media (min-width:481px) and (max-width:767px) {
+    .column{
+        padding-top: 2.22vw;
+        columns: 2;
+        column-gap: 3vw;
+    }
+    .column img{
+        width:100%;
+        border-radius: 3.88vw;
+    }
+    .column h3{
+        font-family: "Sen";
+        font-size:2.5vw;
+        font-weight: 500;
+        line-height:3vw;
+    }
+    .column p{
+        font-family: "Sen";
+        font-size:2vw;
+        font-weight: 200;
+        line-height:2vw;
+    }
+}
+@media (max-width:480px) {
+    .column{
+        padding-top: 2.22vw;
+        columns: 1;
+        column-gap: 2.22vw;
+    }
+    .column img{
+        width:100%;
+        border-radius: 3.88vw;
+    }
+    .column h3{
+        font-family: "Sen";
+        font-size:3.8vw;
+        font-weight: 500;
+        line-height:4vw;
+    }
+    .column p{
+        font-family: "Sen";
+        font-size:2.7vw;
+        font-weight: 200;
+        line-height:2.7vw;
+    }
+}
+/* Second page ends */
