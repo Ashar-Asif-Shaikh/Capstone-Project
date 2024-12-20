@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Sen:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Dela+Gothic+One&family=Sen:wght@400..800&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,12 +6,13 @@
 }
 body {
     margin: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 /* First page starts */
 .First-page {
     width: 100vw;
-    height: 77.14vw;
+    /* height: 77.14vw; */
+    height:auto;
     padding: 0vw 0vw 3.57vw 0vw;
     border: 0vw 0vw 0.07vw 0vw;
     background-color: #F9F5FA;
@@ -20,21 +20,13 @@ body {
 .navbar {
     display: flex;
     width: 100vw;
-    height: 5.97vw;
     justify-content: space-between;
-    padding: 0vw 3.57vw 0vw 3.57vw;
-    border: 0.07vw solid #221B2029;
+    padding:1.11vw 3.57vw;
+    border-bottom: 0.07vw solid #221B2029;
     align-items: center;
 }
 .navbar a{
     text-decoration: none;
-}
-.left {
-    display: flex;
-    width: 17vw;
-    height: 3.57vw;
-    gap: 0.89vw;
-    margin-bottom: 1.5vw;
 }
 .right {
     display: flex;
@@ -97,6 +89,7 @@ body {
     flex-direction: column;
     align-items: center;
     color: #421934;
+    padding-top: 9vw;
 }
 h1 {
     width: 100vw;
@@ -191,3 +184,137 @@ h1 {
     }
 }
 /* Second page ends */
+
+/* Third page starts */
+.third-page{
+    height: fit-content;
+    width: 100%;
+}
+.third-page-heading {
+    width: 100%;
+    height: 20.83vw;
+    padding: 5vw 0vw 5vw 0vw;
+    gap: 0vw;
+    border: 0vw 0vw 0.05vw 0vw;
+    opacity: 0vw;      
+    display: flex;
+    justify-content: center;
+    background-color: #F9F5FA;
+}
+.third-page h2 {
+    width: 47.22vw;
+    height: 10.83vw;
+    max-width: 47.22vw;
+    font-family: "Dela Gothic One";
+    font-size: 2.5vw;
+    font-weight: 400;
+    line-height: 2.71vw;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #421934;
+}
+.third-page-paragraph {
+    width: 100%;
+    height: 13.33vw;
+    padding: 2.5vw 0vw 2.5vw 0vw;
+    gap: 2.5vw;         
+    display: flex;
+    justify-content: end;
+    background-color: #F9F5FA;
+}
+.third-page p {
+    width: 33.75vw;
+    height: 8.33vw;
+    font-family: "Sen";
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 1.67vw;
+    letter-spacing: -0.005em;
+    text-align: left;   
+}
+.input-page {
+    width: 100%;
+    height: 36.46vw;
+    min-height: 36.46vw;
+    padding: 10.42vw 0vw 0vw 0vw;
+    gap: 2.5vw;
+    background-color: #F9F5FA;    
+    display: flex;
+    justify-content: center;
+}
+.input {
+    width: 20.83vw;
+    height: 14.38vw;
+    gap: 1.67vw;
+}
+.input-page h3 {
+    width: 100%;
+    height: 1.67vw;
+    font-family: "Dela Gothic One";
+    font-size: 1.46vw;
+    font-weight: 400;
+    line-height: 1.67vw;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #421934;
+}
+.input-page p {
+    width: 100%;
+    height: 1.04vw;
+    font-family: "Sen";
+    font-size: 0.78vw;
+    font-weight: 400;
+    line-height: 1.04vw;
+    text-align: center;
+    color: #421934;
+    margin-top: 0.55vw;       
+}
+.input-folder {
+    width: 100%;
+    height: 3.33vw;
+    gap: 0.63vw;    
+    display: flex;
+    justify-content: center;
+    margin: 1.67vw 0vw 1.67vw 0vw;
+}
+.input-folder input {
+    width: 2.92vw;
+    height: 3.33vw;
+    border-radius: 0.42vw;
+    border: none;
+    border: 0.05vw 0vw 0vw 0vw;
+    background-color: #DECFD966;
+    border: 0.05vw solid #221B2029;
+    text-align: center;
+    font-family: "Sen";
+    font-size: 1.04vw;
+    font-weight: 400;
+    line-height: 1.25vw;
+    color: #42193466;
+}
+.submit-button {
+    width: 20.83vw;
+    height: 1.88vw;
+    padding: 0.42vw 0.83vw 0.42vw 0.83vw;
+    border-radius: 0.42vw;
+    background-color: #CD3799;
+    color: #FFFAFD;
+    font-family: "DM Mono";
+    font-size: 0.78vw;
+    font-weight: 500;
+    line-height: 1.04vw;
+    border: none;  
+    margin: 0vw 0vw 1.67vw 0vw;  
+}
+.skip-button {
+    width: 100%;
+    height: 1.04vw;
+    font-family: "DM Mono";
+    font-size: 0.78vw;
+    font-weight: 500;
+    line-height: 1.04vw;
+    color: #CD3799;
+    display: flex;
+    justify-content: center;
+}
+/* Third page ends */
